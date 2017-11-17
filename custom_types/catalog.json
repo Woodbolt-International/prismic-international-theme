@@ -1,0 +1,17 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "catalog_label" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Catalog Label"
+      }
+    }
+  }
+}

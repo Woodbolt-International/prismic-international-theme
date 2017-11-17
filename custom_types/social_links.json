@@ -1,0 +1,32 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "facebook_link" : {
+      "config" : {
+        "label" : "facebook link",
+        "placeholder" : "https://www.facebook.com/Cellucor/"
+      },
+      "type" : "Text"
+    },
+    "twitter_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "twitter link",
+        "placeholder" : "https://twitter.com/Cellucor"
+      }
+    },
+    "instagram_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "instagram link",
+        "placeholder" : "https://www.instagram.com/cellucor"
+      }
+    }
+  }
+}

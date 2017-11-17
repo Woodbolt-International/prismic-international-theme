@@ -1,0 +1,24 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "story_label" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Story Label"
+      }
+    },
+    "story_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Story Description"
+      }
+    }
+  }
+}

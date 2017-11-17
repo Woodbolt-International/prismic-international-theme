@@ -1,0 +1,35 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "catalog_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Catalog Nav Title"
+      }
+    },
+    "story_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Story Nav Title"
+      }
+    },
+    "retailers_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Where To Buy Nav Title"
+      }
+    },
+    "contact_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Contact Nav Title"
+      }
+    }
+  }
+}

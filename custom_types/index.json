@@ -1,0 +1,61 @@
+[{
+  "id": "catalog",
+  "name": "Catalog",
+  "repeatable": false,
+  "value": "catalog.json"
+}, {
+  "id": "contact",
+  "name": "Contact",
+  "repeatable": false,
+  "value": "contact.json"
+}, {
+  "id": "directions",
+  "name": "Directions",
+  "repeatable": false,
+  "value": "directions.json"
+}, {
+  "id": "footer",
+  "name": "Footer",
+  "repeatable": false,
+  "value": "footer.json"
+}, {
+  "id": "header",
+  "name": "Header",
+  "repeatable": false,
+  "value": "header.json"
+}, {
+  "id": "home",
+  "name": "Home",
+  "repeatable": false,
+  "value": "home.json"
+}, {
+  "id": "privacy",
+  "name": "Privacy",
+  "repeatable": false,
+  "value": "privacy.json"
+}, {
+  "id": "product",
+  "name": "Product",
+  "repeatable": true,
+  "value": "product.json"
+}, {
+  "id": "retailers",
+  "name": "Retailers",
+  "repeatable": false,
+  "value": "retailers.json"
+}, {
+  "id": "social_links",
+  "name": "Social Links",
+  "repeatable": false,
+  "value": "social_links.json"
+}, {
+  "id": "story",
+  "name": "Story",
+  "repeatable": false,
+  "value": "story.json"
+}, {
+  "id": "terms",
+  "name": "Terms",
+  "repeatable": false,
+  "value": "terms.json"
+}]

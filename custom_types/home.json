@@ -1,0 +1,53 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "hero_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 1200,
+          "height" : 300
+        },
+        "thumbnails" : [ ],
+        "label" : "hero_image"
+      }
+    },
+    "hero_copy" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Hero Copy"
+      }
+    },
+    "featured_products_label" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Featured Products Label",
+        "placeholder" : "Featured Products"
+      }
+    },
+    "featured_products" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "product" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "document",
+              "customtypes" : [ "product" ],
+              "label" : "Product",
+              "placeholder" : "Select a product"
+            }
+          }
+        },
+        "label" : "Featured Products"
+      }
+    }
+  }
+}

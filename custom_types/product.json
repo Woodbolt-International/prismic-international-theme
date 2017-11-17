@@ -1,0 +1,29 @@
+{
+  "Main" : {
+    "product_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Product Title",
+        "useAsTitle" : true
+      }
+    },
+    "product_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 300,
+          "height" : 300
+        },
+        "thumbnails" : [ ],
+        "label" : "Product Image"
+      }
+    },
+    "product_description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Product Description",
+        "placeholder" : "Product description"
+      }
+    }
+  }
+}

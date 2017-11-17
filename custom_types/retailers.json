@@ -1,0 +1,48 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "retailers_label" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Retailers Label"
+      }
+    },
+    "retailers" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "retailer_logo" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : {
+                "width" : 300,
+                "height" : 150
+              },
+              "thumbnails" : [ ],
+              "label" : "Retailer Logo"
+            }
+          },
+          "retailer_website" : {
+            "type" : "Link",
+            "config" : {
+              "label" : "Retailer Website"
+            }
+          },
+          "retailer_name" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "Retailer Name"
+            }
+          }
+        },
+        "label" : "Retailers"
+      }
+    }
+  }
+}

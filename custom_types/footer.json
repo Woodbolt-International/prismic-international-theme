@@ -1,0 +1,36 @@
+{
+  "Main" : {
+    "document_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Document Title (do not edit)",
+        "useAsTitle" : true
+      }
+    },
+    "terms_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Terms of Use Nav Title"
+      }
+    },
+    "privacy_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Privacy Nav Title"
+      }
+    },
+    "directed_use_nav_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Directed Use Nav Title"
+      }
+    },
+    "tagline" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Tagline",
+        "placeholder" : "Better is never enough"
+      }
+    }
+  }
+}
